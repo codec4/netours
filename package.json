@@ -1,0 +1,21 @@
+{
+  "name": "netours",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codec4/netours.git"
+  },
+  "author": "O.Stepanets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codec4/netours/issues"
+  },
+  "homepage": "https://github.com/codec4/netours#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
