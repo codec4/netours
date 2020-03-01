@@ -12,7 +12,7 @@ html {
    then user do not see changes at font size so we need convert px to percentage */
   /* font-size: 62.5%; */
   // font-size: 10px;
-  font-size: 62.5%;
+  font-size: 62.5%; // 1 rem = 10px; 10px / 16px = 62.5%;
 }
 
 body {
