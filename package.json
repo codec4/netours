@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "concurrently \"npm run serve\"  \"npm run compile:sass\"",
     "serve": "live-server",
     "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/codec4/netours#readme",
   "devDependencies": {
+    "concurrently": "^5.1.0",
     "live-server": "^1.2.1",
     "node-sass": "^4.13.1"
   }
